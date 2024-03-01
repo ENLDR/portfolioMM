@@ -1,0 +1,24 @@
+/* Styles for responsive design */
+
+/* Mobile styles (default) */
+body {
+    font-size: 14px;
+}
+
+/* Tablet styles */
+@media only screen and (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+
+    /* Add more styles for larger screens if needed */
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 1024px) {
+    body {
+        font-size: 20px;
+    }
+
+    /* Add more styles for larger screens if needed */
+}
